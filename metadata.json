@@ -1,0 +1,5 @@
+{
+  "name": "PixelForge AI",
+  "description": "Generate and edit images using Gemini AI models with custom API key support.",
+  "requestFramePermissions": []
+}
