@@ -29,10 +29,10 @@ export const S = {
   wide: 694,
   contrast: 716,
   endFade: 762,
-  line1: 786,
-  line2: 806,
-  periodDrop: 838,
-  cta: 862,
+  line1: 772,
+  line2: 790,
+  periodDrop: 822,
+  cta: 846,
   end: DURATION,
 };
 

@@ -109,7 +109,7 @@ const Line: React.FC<{f: number; at: number; children: React.ReactNode}> = ({f, 
 };
 
 export const Ending: React.FC<{f: number}> = ({f}) => {
-  if (f < S.endFade + 10) return null;
+  if (f < S.line1 - 2) return null;
   const words1 = ['Đừng', 'đợi', 'cú', 'ném', 'hoàn', 'hảo.'];
   const BIG = 108;
   const pb = periodBall(f, v(0, 0));
