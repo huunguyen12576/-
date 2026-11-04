@@ -1,0 +1,22 @@
+{
+  "name": "remotion-overthinker",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Cùng một tin nhắn. Hai đêm khác nhau. — Remotion 9:16 cinematic short",
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "audio": "python3 scripts/make_audio.py",
+    "render": "remotion render src/index.ts Overthinker out/cung-mot-tin-nhan.mp4 --pixel-format yuv420p --codec h264 --crf 16 --audio-bitrate 320k"
+  },
+  "dependencies": {
+    "@fontsource/montserrat": "5.2.8",
+    "@remotion/cli": "4.0.540",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "remotion": "4.0.540"
+  },
+  "devDependencies": {
+    "@types/react": "18.3.12",
+    "typescript": "5.6.3"
+  }
+}
