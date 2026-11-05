@@ -1,0 +1,23 @@
+{
+  "name": "remotion-5-phut",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "studio": "remotion studio",
+    "audio": "node scripts/make-audio.mjs",
+    "still": "remotion still NamPhut out/still.png --frame=240",
+    "render": "node scripts/make-audio.mjs && remotion render NamPhut out/nam-phut.mp4 --codec=h264 --crf=18 --audio-codec=aac --audio-bitrate=192k",
+    "typecheck": "tsc -p ."
+  },
+  "dependencies": {
+    "@fontsource/montserrat": "^5.1.0",
+    "@remotion/cli": "4.0.290",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "remotion": "4.0.290"
+  },
+  "devDependencies": {
+    "@types/react": "18.3.12",
+    "typescript": "5.6.3"
+  }
+}
