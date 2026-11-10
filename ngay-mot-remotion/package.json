@@ -1,0 +1,21 @@
+{
+  "name": "ngay-mot-remotion",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "studio": "remotion studio",
+    "audio": "python3 scripts/make_audio.py",
+    "render": "remotion render NgayMot out/ngay-mot.mp4 --codec h264 --crf 18",
+    "still": "remotion still NgayMot out/still.png"
+  },
+  "dependencies": {
+    "@fontsource-variable/montserrat": "^5.2.5",
+    "@fontsource/montserrat": "^5.2.5",
+    "@remotion/cli": "^4.0.380",
+    "@types/react": "^19.1.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "remotion": "^4.0.380",
+    "typescript": "^5.8.3"
+  }
+}

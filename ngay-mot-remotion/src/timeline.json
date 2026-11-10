@@ -1,0 +1,13 @@
+{
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "duration": 1440,
+  "scenes": {
+    "pillar": [0, 330],
+    "field": [330, 750],
+    "mountain": [750, 1020],
+    "bucket": [1020, 1290],
+    "outro": [1290, 1440]
+  }
+}
